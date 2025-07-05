@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -7,173 +6,167 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Rubik" , sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #1f2937;
   background-color: #f9fafb;
-
+  overflow-x: hidden;
 }
 .btn,
-.btn:link, .btn:visited{
-
+.btn:link,
+.btn:visited {
   display: inline-block;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.4rem 3.2rem;
-  border-radius:9px;
+  border-radius: 9px;
 
-  transition: all 0.3s ;
-    border: 1px solid #cee5de;
+  transition: all 0.3s;
+  border: 1px solid #cee5de;
 
-border: none;
-cursor: pointer;
-font-family: inherit;
-
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
-
-.btn--full:link , .btn--full:visited {
-  background-color: #087F5B;
-  color:#f9fafb;
-
-
-
+.btn--full:link,
+.btn--full:visited {
+  background-color: #087f5b;
+  color: #f9fafb;
 }
 
-.btn--full:hover , .btn--full:active{
+.btn--full:hover,
+.btn--full:active {
   background-color: #065940;
 }
 
-
-.btn--outline:link , .btn--outline:visited{
-  background-color:#f9fafb;
-  color:#1f2937;
-
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #f9fafb;
+  color: #1f2937;
 }
 
-.btn-price--outline:link , .btn-price--outline:visited{
-  color:#1f2937;
+.btn-price--outline:link,
+.btn-price--outline:visited {
+  color: #1f2937;
   font-weight: 500;
   padding: 1.4rem 3rem;
-
 }
 
-.btn--outline:hover , .btn--outline:active{
-  background-color:#cee5de;
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #cee5de;
   box-shadow: inset 0 0 0 3px #fff;
-  
 }
 
-.link:link , .link:visited{
- text-decoration: none;
- color: #087F5B;
- border-bottom: 1px solid currentColor;
- padding-bottom: 2px;
- display: inline-block;
-
+.link:link,
+.link:visited {
+  text-decoration: none;
+  color: #087f5b;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
 }
 
-.link:hover, .link:active{
-
- color: #065940;
- border-bottom: 1px solid transparent;
-
-
+.link:hover,
+.link:active {
+  color: #065940;
+  border-bottom: 1px solid transparent;
 }
 
-.center-text{
- text-align: center;
+.center-text {
+  text-align: center;
 }
 
-.margin-right-sm{
+.margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
-.margin-bottom-md{
-  margin-bottom:4.8rem !important ;
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important ;
 }
 
-.heading-primary , .heading-secondary,
-.heading-tertiary{
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   color: #1f2937;
   letter-spacing: -0.5px;
 }
 
-.heading-primary{
+.heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 
-.heading-secondary{
+.heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 
-.heading-tertiary{
-font-size:3.0rem;
-line-height:1.2;
-margin-bottom: 3.2rem;
-
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 
-.subheading{
-display: block;
-font-size: 2rem;
-font-weight:500;
-color: #087F5B;
-text-transform: uppercase;
-margin-bottom: 1.6rem;
-letter-spacing: 0.75px;
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #087f5b;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
-.container{
+.container {
   max-width: 120rem;
   padding: 0 3.2rem;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.grid{
+.grid {
   display: grid;
   column-gap: 6.4rem;
-  row-gap:9.6rem;
+  row-gap: 9.6rem;
 }
 
-.grid:not(last-child){
+.grid:not(last-child) {
   margin-bottom: 9.6rem;
 }
-.grid--2-cols{
-  grid-template-columns: repeat(2,1fr);
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.grid--3-cols{
-  grid-template-columns: repeat(3,1fr);
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.grid--4-cols{
-  grid-template-columns: repeat(4,1fr);
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5-cols{
-  grid-template-columns: repeat(5,1fr);
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
-
-.grid--center-v{
+.grid--center-v {
   align-items: center;
 }
 
-strong{
+strong {
   font-weight: 500;
 }
-
 
 /* *:focus{
   outline: none;
